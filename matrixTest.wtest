@@ -1,9 +1,11 @@
+import pasajeros.*
+import nave.*
 
+describe "Matrix " {
 
-describe "group of tests " {
-
-  test "test 01" {
-    assert.equals(100, 50+50)
+  test "Manejo de error en test" {
+    //Escribo el error que quiero que muestre en consola
+    asset.throwsExceptionWithMessage("La lista esta vacia", {nave.pasajeroAlAzar()})
   }
 
 }
